@@ -8,7 +8,9 @@ int main() {
     "Number One. Nobody knows how to spell it. \nNumber Two. No matter how long you boil it,"
     "it's always cold by the time it reaches your plate. \nNumber Three. It's green. #broccoli\n";
 
-    Bleep(text, "broccoli");
+    std::string word = "broccoli";
+
+    Bleep(text, word);
 
     std::cout << text;
     
